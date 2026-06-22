@@ -2,8 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "vitepress-template",
-  description: "A starter template for VitePress",
+  title: "梧桐产业投资",
+  description: "A Chinese-oriented Private Investment",
   srcDir: 'pages',
   outDir: 'dist',
   ignoreDeadLinks: true,
@@ -16,7 +16,8 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Quick Start', link: '/quick-start/quick-start' },
-      { text: 'Examples', link: '/examples/markdown-examples' }
+      { text: 'Examples', link: '/examples/markdown-examples' },
+      { text: 'Infonews', link: '/information/info01' }
     ],
 
     sidebar: [
@@ -53,6 +54,12 @@ export default defineConfig({
         items: [
           { text: 'Markdown Examples', link: '/examples/markdown-examples' },
           { text: 'Runtime API Examples', link: '/examples/api-examples' }
+        ]
+      },
+      {
+        text: 'Infonews',
+        items: [
+          { text: 'Info01', link: '/information/info01' }
         ]
       }
     ],
